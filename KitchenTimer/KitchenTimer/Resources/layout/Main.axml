@@ -2,6 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+    <TextView
+        android:text="00:00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RemainingTimeTextView"
+        android:textSize="80dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#ffff00"
+        android:padding="8dp" />
+    <Button
+        android:text="スタート"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartButton"
+        android:textSize="32dp"
+        android:layout_margin="16dp"
+        android:padding="8dp" />
 </LinearLayout>
