@@ -76,7 +76,7 @@ namespace KitchenTimer
                     _isStart = false;
                     _remainingMillisec = 0;
                     _startButton.Text = "スタート";
-                    var toneGenerator = new ToneGenerator(Stream.System, 50);
+                    var toneGenerator = new ToneGenerator(Stream.System,100);
                     toneGenerator.StartTone(Tone.CdmaHighSs);
                     toneGenerator.Release();
                 }
